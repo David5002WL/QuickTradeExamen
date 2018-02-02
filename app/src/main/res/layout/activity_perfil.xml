@@ -29,18 +29,35 @@
         android:id="@+id/botonTodosProductos"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:text="VER TODOS LOS PRODUCTOS"
         android:layout_below="@+id/boton_agrPro"
-        android:layout_centerHorizontal="true"
-        android:layout_marginTop="118dp"
-        android:text="VER TODOS LOS PRODUCTOS" />
+        android:layout_centerHorizontal="true" />
 
     <Button
         android:id="@+id/botonTodosUsuarios"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginTop="29dp"
+        android:text="VER TODOS LOS USUARIOS"
         android:layout_below="@+id/botonTodosProductos"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:id="@+id/botonSeguidores"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="29dp"
+        android:text="VER MIS SEGUIDORES"
+        android:layout_below="@+id/botonTodosUsuarios"
+        android:layout_alignStart="@+id/boton_agrPro" />
+
+    <TextView
+        android:id="@+id/seguidoresText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/botonSeguidores"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="47dp"
-        android:text="VER TODOS LOS USUARIOS" />
+        android:layout_marginTop="47dp" />
 
 </RelativeLayout>
